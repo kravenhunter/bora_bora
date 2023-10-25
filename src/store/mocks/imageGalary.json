@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "name":"sea-2",
+        "imglink":"src/assets/images/bg/sea-2.jpg",
+        "title":"Header Section"
+   
+    },
+    {
+         "id":2,
+        "name":"sea-1",
+        "imglink":"src/assets/images/bg/sea-1.jpg",
+        "title":"Header Section"
+    },
+    {
+         "id":3,
+        "name":"beach-1",
+        "imglink":"src/assets/images/bg/beach-1.jpg",
+        "title":"Header Section"
+    }
+   
+]

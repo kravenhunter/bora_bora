@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+       
+        "imglink":"src/assets/images/bg/sea-2.jpg",
+        "name":"About Nights",
+        "description": "Lörem ipsum minöv eusat Anette Jonsson logotion syr, nening sprejgodis. Antisöska viling, att sanyl i nyras. Ogt blorange odavis. Her fåbamån. Sejinade lakronera tripatologi i"
+    },
+    {
+         "id":2,
+     
+        "imglink":"src/assets/images/bg/sea-1.jpg",
+        "name":"Sea Journey",
+        "description": "Lörem ipsum minöv eusat Anette Jonsson logotion syr, nening sprejgodis. Antisöska viling, att sanyl i nyras. Ogt blorange odavis. Her fåbamån. Sejinade lakronera tripatologi i"
+    },
+    {
+         "id":3,
+     
+        "imglink":"src/assets/images/bg/beach-1.jpg",
+        "name":"Beatiful beach",
+        "description": "Lörem ipsum minöv eusat Anette Jonsson logotion syr, nening sprejgodis. Antisöska viling, att sanyl i nyras. Ogt blorange odavis. Her fåbamån. Sejinade lakronera tripatologi i"
+    }
+]

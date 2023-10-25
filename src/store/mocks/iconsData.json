@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "name":"email",        
+        "imglink":"src/assets/images/icons/email.svg"
+       
+    },
+    {
+         "id":2,
+        "name":"telephone",
+        "imglink":"src/assets/images/icons/telephone.svg"
+       
+    },
+    {
+         "id":3,
+        "name":"location",
+        "imglink":"src/assets/images/icons/location.svg"
+        
+    },
+    {
+        "id":4,
+       "name":"user",
+       "imglink":"src/assets/images/icons/user.svg"
+       
+   }
+]

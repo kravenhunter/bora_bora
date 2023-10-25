@@ -1,0 +1,46 @@
+[
+    {
+        "id":1,
+        "name":"image_3",
+        "imglink":"src/assets/images/bg/image_3.jpg",
+        "title":"Header Section"
+   
+    },
+    {
+         "id":2,
+        "name":"image-5",
+        "imglink":"src/assets/images/bg/image-5.jpg",
+        "title":"Header Section"
+    },
+    {
+         "id":3,
+        "name":"info-image",
+        "imglink":"src/assets/images/bg/info-image.png",
+        "title":"Header Section"
+    },
+    {
+        "id":4,
+       "name":"galary-bg",
+       "imglink":"src/assets/images/bg/island2.jpg",
+       "title":"Header Section"
+   },
+    {
+        "id":5,
+      "name":"beach-2",
+      "imglink":"src/assets/images/bg/beach-2.jpg",
+      "title":"Header Section"
+        },  
+    {
+        "id":6,
+    "name":"beach-3",
+    "imglink":"src/assets/images/bg/beach-3.jpg",
+    "title":"Header Section"
+        },
+        {
+            "id":7,
+            "name":"header bg",
+            "imglink":"src/assets/images/bg/pablo-azurduy-1VfhkiBVhM0-unsplash 1.jpg",
+            "title":"Header Section"
+       
+        } 
+]
