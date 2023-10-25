@@ -1,46 +1,43 @@
 <template>
-<div class="grid-container gap">
+  <div class="grid-container gap">
     <slot></slot>
-</div>
+  </div>
 </template>
 
 <script setup>
 const props = defineProps({
-    minSize: {
-        type: String,
-        default: '320px'
-    },
-    maxSize: {
-        type: String,
-        default: '1fr'
-    },
-    columnGap: {
-        type: String,
-        default: '0px'
-    },
-    rowGap: {
-        type: String,
-        default: '0px'
-    },
-    countColumns: {
-        type: String,
-        default: '1'
-    },
-})
+  minSize: {
+    type: String,
+    default: "320px",
+  },
+  maxSize: {
+    type: String,
+    default: "1fr",
+  },
+  columnGap: {
+    type: String,
+    default: "0px",
+  },
+  rowGap: {
+    type: String,
+    default: "0px",
+  },
+  countColumns: {
+    type: String,
+    default: "1",
+  },
+});
 </script>
 
 <style lang="scss" scoped>
-.grid-container{
-
-display: grid;
-//  так как окончатльный размер блока bodyBlock  500px ток нужно правильно расчитать размер блока contentblock чтобы при сжимании
-// происходил перенос 
-//grid-template-columns: repeat(auto-fill,minmax(v-bind(minSize), v-bind(maxSize)));
-grid-template-columns: repeat(v-bind(countColumns),  v-bind(maxSize));
-column-gap: v-bind(columnGap);
-//row-gap: v-bind(rowGap);
-justify-content: space-between;
-
+.grid-container {
+  display: grid;
+  //  так как окончатльный размер блока bodyBlock  500px ток нужно правильно расчитать размер блока contentblock чтобы при сжимании
+  // происходил перенос
+  //grid-template-columns: repeat(auto-fill,minmax(v-bind(minSize), v-bind(maxSize)));
+  grid-template-columns: repeat(v-bind(countColumns), v-bind(maxSize));
+  column-gap: v-bind(columnGap);
+  //row-gap: v-bind(rowGap);
+  justify-content: space-between;
 }
-
 </style>
