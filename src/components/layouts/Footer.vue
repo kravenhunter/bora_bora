@@ -3,24 +3,24 @@
     <div class="footer-socials">
       <h4>follows</h4>
       <div class="social-icons">
-        <span> <img src="@/assets/images/icons/telegram.svg" alt="telegram" /></span>
-        <span><img src="@/assets/images/icons/facebook.svg" alt="facebook" /></span>
-        <span><img src="@/assets/images/icons/twitter.svg" alt="twitter" /></span>
-        <span><img src="@/assets/images/icons/whatsap.svg" alt="whatsap" /></span>
+        <span> <img src="/images/icons/telegram.svg" alt="telegram" /></span>
+        <span><img src="/images/icons/facebook.svg" alt="facebook" /></span>
+        <span><img src="/images/icons/twitter.svg" alt="twitter" /></span>
+        <span><img src="/images/icons/whatsap.svg" alt="whatsap" /></span>
       </div>
     </div>
     <div class="footer-services">
       <h4>Services</h4>
       <div class="services-item">
-        <img src="@/assets/images/icons/arrow.svg" alt="arrow" />
+        <img src="/images/icons/arrow.svg" alt="arrow" />
         <span>Free Website Tutorials</span>
       </div>
       <div class="services-item">
-        <img src="@/assets/images/icons/arrow.svg" alt="arrow2" />
+        <img src="/images/icons/arrow.svg" alt="arrow2" />
         <span>Web Design Tips</span>
       </div>
       <div class="services-item">
-        <img src="@/assets/images/icons/arrow.svg" alt="arrow3" />
+        <img src="/images/icons/arrow.svg" alt="arrow3" />
         <span>E-Commerce Tutorials</span>
       </div>
     </div>
@@ -28,16 +28,16 @@
       <h4>Contacts</h4>
 
       <div class="footer-cts-item">
-        <img src="@/assets/images/icons/email.svg" alt="email" />
+        <img src="/images/icons/email.svg" alt="email" />
         <span> maulayuouts@gmail.com</span>
       </div>
 
       <div class="footer-cts-item">
-        <img src="@/assets/images/icons/telephone.svg" alt="email" />
+        <img src="/images/icons/telephone.svg" alt="email" />
         <span>123-452-746</span>
       </div>
       <div class="footer-cts-item">
-        <img src="@/assets/images/icons/location.svg" alt="email" />
+        <img src="/images/icons/location.svg" alt="email" />
         <span>123 Sant-Petesburg, Moskov street 17</span>
       </div>
     </div>

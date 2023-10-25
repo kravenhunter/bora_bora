@@ -1,19 +1,17 @@
 [
-   
-   {
-    "id":1,
-    "imgBglink":"src/assets/images/bg/sea-2.jpg",
-    "name":"background image"
-    },
-    {
-        "id":2,
-        "data":[],
-        "name":"Navigation Data"
-     },
-     {
-        "id":3,
-        "data":[],
-        "name":"Offer Data"
-     }
-
+  {
+    "id": 1,
+    "imgBglink": "/images/bg/sea-2.jpg",
+    "name": "background image"
+  },
+  {
+    "id": 2,
+    "data": [],
+    "name": "Navigation Data"
+  },
+  {
+    "id": 3,
+    "data": [],
+    "name": "Offer Data"
+  }
 ]

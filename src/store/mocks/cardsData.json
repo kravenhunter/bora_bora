@@ -1,20 +1,20 @@
 [
-    {
-        "id":1,
-        "name":"Ralph Edwards",        
-        "imglink":"src/assets/images/Cards/Cameron_Williamson.jpg",
-        "description": "Lörem ipsum minöv eusat Anette Jonsson logotion syr, nening sprejgodis. Antisöska viling, att sanyl i nyras. Ogt blorange odavis. Her fåbamån. Sejinade lakronera tripatologi i"
-    },
-    {
-         "id":2,
-        "name":"Leslie Alexander",
-        "imglink":"src/assets/images/Cards/Leslie_Alexander.jpg",
-        "description": "Lörem ipsum minöv eusat Anette Jonsson logotion syr, nening sprejgodis. Antisöska viling, att sanyl i nyras. Ogt blorange odavis. Her fåbamån. Sejinade lakronera tripatologi i"
-    },
-    {
-         "id":3,
-        "name":"Cameron Williamson",
-        "imglink":"src/assets/images/Cards/Ralph _Edwards.jpg",
-        "description": "Lörem ipsum minöv eusat Anette Jonsson logotion syr, nening sprejgodis. Antisöska viling, att sanyl i nyras. Ogt blorange odavis. Her fåbamån. Sejinade lakronera tripatologi i"
-    }
+  {
+    "id": 1,
+    "name": "Ralph Edwards",
+    "imglink": "/images/Cards/Cameron_Williamson.jpg",
+    "description": "Lörem ipsum minöv eusat Anette Jonsson logotion syr, nening sprejgodis. Antisöska viling, att sanyl i nyras. Ogt blorange odavis. Her fåbamån. Sejinade lakronera tripatologi i"
+  },
+  {
+    "id": 2,
+    "name": "Leslie Alexander",
+    "imglink": "/images/Cards/Leslie_Alexander.jpg",
+    "description": "Lörem ipsum minöv eusat Anette Jonsson logotion syr, nening sprejgodis. Antisöska viling, att sanyl i nyras. Ogt blorange odavis. Her fåbamån. Sejinade lakronera tripatologi i"
+  },
+  {
+    "id": 3,
+    "name": "Cameron Williamson",
+    "imglink": "/images/Cards/Ralph _Edwards.jpg",
+    "description": "Lörem ipsum minöv eusat Anette Jonsson logotion syr, nening sprejgodis. Antisöska viling, att sanyl i nyras. Ogt blorange odavis. Her fåbamån. Sejinade lakronera tripatologi i"
+  }
 ]

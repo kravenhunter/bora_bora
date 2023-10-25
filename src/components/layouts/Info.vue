@@ -23,7 +23,7 @@
       </div>
 
       <div class="about-galary-list">
-        <img class="about-galary-img" src="@/assets/images/bg/info-image.png" alt="" />
+        <img class="about-galary-img" src="/images/bg/info-image.png" alt="" />
       </div>
     </div>
   </div>
