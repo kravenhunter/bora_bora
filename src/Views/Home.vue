@@ -35,17 +35,6 @@ const dataState = reactive({
 });
 const dataStore = useDataStore();
 
-const titles = [
-  {
-    id: 1,
-    name: "Articles",
-  },
-  {
-    id: 2,
-    name: "Reviews of journey",
-  },
-];
-
 onMounted(async () => {
   dataState.imageBg = await dataStore.getImagBgASync();
   dataState.titles = await dataStore.getTitleASync();
@@ -61,5 +50,3 @@ onMounted(async () => {
   console.log("Icons", dataState.icons);
 });
 </script>
-
-<style lang="scss" scoped></style>

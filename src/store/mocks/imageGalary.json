@@ -2,19 +2,19 @@
   {
     "id": 1,
     "name": "sea-2",
-    "imglink": "/images/bg/sea-2.jpg",
+    "imglink": "/images/bg/sea-2.webp",
     "title": "Header Section"
   },
   {
     "id": 2,
     "name": "sea-1",
-    "imglink": "/images/bg/sea-1.jpg",
+    "imglink": "/images/bg/sea-1.webp",
     "title": "Header Section"
   },
   {
     "id": 3,
     "name": "beach-1",
-    "imglink": "/images/bg/beach-1.jpg",
+    "imglink": "/images/bg/beach-1.webp",
     "title": "Header Section"
   }
 ]
