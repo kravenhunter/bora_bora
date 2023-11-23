@@ -91,6 +91,9 @@
   line-height: 19px;
   font-weight: 400;
   text-transform: none;
+  & img {
+    width: 30px;
+  }
 }
 .footer .footer-cts {
   grid-row: 2 / span 2;
@@ -115,6 +118,9 @@
   line-height: 19px;
   font-weight: 400;
   text-transform: none;
+  & img {
+    width: 30px;
+  }
 }
 .footer .footer-copyright {
   grid-row: 4 / span 2;

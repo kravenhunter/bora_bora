@@ -15,9 +15,11 @@ const props = defineProps({
 </script>
 
 <style lang="scss" scoped>
-.image-block .image-block-img {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+.image-block {
+  &-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 </style>

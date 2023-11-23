@@ -1,17 +1,14 @@
 <template>
   <div class="galary">
-    <ImageBlock class="galary-bg" :imageBg="galaryBg" />
-    <div class="galary-title">
+    <!--   <ImageBlock class="galary-bg" :imageBg="galaryBg" /> -->
+    <div class="galary__title">
       <h1>GALARY</h1>
       <hr />
     </div>
-    <div class="galary-list">
-      <div class="galary-block">
-        <div class="galary-block-image" v-for="(element, i) in galaryList" :key="i">
-          <ImageBlock :imageBg="element" />
-        </div>
+    <div class="galary__list">
+      <div class="galary__list-image" v-for="(element, i) in galaryList" :key="i">
+        <ImageBlock :imageBg="element" />
       </div>
-      <div></div>
     </div>
     <AddPagination />
   </div>
@@ -34,45 +31,23 @@ const props = defineProps({
 
 <style lang="scss" scoped>
 .galary {
-  display: grid;
-
-  grid-template-rows: repeat(10, 1fr);
-  grid-template-columns: repeat(14, 1fr);
-}
-.galary .galary-bg {
-  grid-row: 1 / span 12;
-  grid-column: 1 / span 14;
-}
-.galary .galary-title {
-  font-family: "Montserrat SemiBold";
-  font-size: 24px;
-  grid-row: 2 / span 1;
-  grid-column: 5 / span 6;
-  justify-self: center;
-}
-.galary .galary-title h1 {
-  margin: 0;
-}
-.galary .galary-title hr {
-  height: 2px;
-}
-.galary .galary-list {
-  grid-row: 3 / span 4;
-  grid-column: 2 / span 12;
-  justify-self: center;
-  align-self: center;
-}
-.galary-block {
+  background: url(/images/bg/island2.webp);
   display: flex;
-  column-gap: 45px;
-}
-.galary-block .galary-block-image {
-  max-width: 470px;
-  max-height: 436px;
-}
-.galary .pagination {
-  grid-row: 7 / span 1;
-  grid-column: 6 / span 4;
-  align-self: start;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
+
+  &__title {
+    font-family: "Montserrat SemiBold";
+    font-size: 24px;
+    & hr {
+      height: 2px;
+    }
+  }
+  &__list {
+    display: flex;
+    column-gap: 50px;
+  }
 }
 </style>

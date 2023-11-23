@@ -1,98 +1,29 @@
-@import '@/styles/normalize.scss';
+@import "@/styles/normalize.scss";
 
-@import '@/styles/variables.scss';
-@import '@/styles/fonts.scss';
-
-/* body {
- 
-  display: flex;
-  place-items: center;
-
-  min-width: 320px;
-  min-height: 100vh;
-} */
+@import "@/styles/variables.scss";
+@import "@/styles/fonts.scss";
 
 *,
 *::before,
-*::after{
+*::after {
   box-sizing: inherit;
 }
+body::-webkit-scrollbar {
+  display: none;
+}
 a {
- /*  font-weight: 500; */
   color: inherit;
   text-decoration: inherit;
 }
 
 #app {
- // font-family:  "Montserrat",  sans-serif ;
- font-family:  montserrat,  sans-serif ;
+  font-family: montserrat, sans-serif;
   max-width: 1920px;
-  margin: 0 ;
+  margin: 0;
   padding: 0;
-
-/*   padding: 2rem;
-  text-align: center; */
 }
 
-/* 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+img {
+  width: 100%;
+  height: 100%;
 }
-a:hover {
-  color: var(--color-link);
-}
-
-a {
-  font-weight: 500;
-  color:  var(--color-link);
-  text-decoration: inherit;
-}
-a:hover {
-  color:var(--color-link-hover);
-} */
-
-
-/* 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-} */
-/* 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-} */
-
-/* .card {
-  padding: 2em;
-} */
-
-
-/* @media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-} */

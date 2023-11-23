@@ -1,17 +1,3 @@
-<template>
-  <div class="paralax">
-    <Header :headerBg="dataState.imageBg[6]" :iconImg="dataState.icons[3]" />
-    <Info />
-    <ImageBlock :imageBg="dataState.imageBg[1]" />
-    <Galary :galaryList="dataState.imageGalary" :galaryBg="dataState.imageBg[3]" />
-    <Cards :cards="dataState.articles" :title="dataState.titles[0]" />
-    <ImageBlock :imageBg="dataState.imageBg[4]" />
-    <Cards :cards="dataState.cardsList" :title="dataState.titles[1]" />
-    <ContactUs :contactUsBg="dataState.imageBg[5]" />
-    <Footer />
-  </div>
-</template>
-
 <script setup>
 import Header from "@/components/layouts/Header.vue";
 import Info from "@/components/layouts/Info.vue";
@@ -42,11 +28,70 @@ onMounted(async () => {
   dataState.imageGalary = await dataStore.getImageGalaryASync();
   dataState.articles = await dataStore.getArticlesASync();
   dataState.icons = await dataStore.getIconsASync();
-  console.log("getImagBgASync", dataState.imageBg);
-  console.log("getTitleASync", dataState.titles);
-  console.log("getCardASync", dataState.imageCards);
-  console.log("getImageGalaryASync", dataState.imageGalary);
+  // console.log("getImagBgASync", dataState.imageBg);
+  // console.log("getTitleASync", dataState.titles);
+  // console.log("getCardASync", dataState.imageCards);
+  // console.log("getImageGalaryASync", dataState.imageGalary);
 
-  console.log("Icons", dataState.icons);
+  // console.log("Icons", dataState.icons);
 });
 </script>
+
+<template>
+  <div class="paralax" id="smooth-wrapper">
+    <section class="section">
+      <Header class="fixed" :headerBg="dataState.imageBg[6]" :iconImg="dataState.icons[3]" />
+    </section>
+    <section class="section" id="ABOUT">
+      <Info class="fixed" />
+    </section>
+    <section class="section">
+      <ImageBlock class="fixed" :imageBg="dataState.imageBg[1]" />
+    </section>
+    <section class="section" id="TOURIZM">
+      <Galary class="fixed" :galaryList="dataState.imageGalary" :galaryBg="dataState.imageBg[3]" />
+    </section>
+    <section class="section" id="NEWS">
+      <Cards class="fixed" :cards="dataState.articles" :title="dataState.titles[0]" />
+    </section>
+    <section class="section">
+      <ImageBlock class="fixed" :imageBg="dataState.imageBg[4]" />
+    </section>
+    <section class="section" id="REVIEWS">
+      <Cards class="fixed" :cards="dataState.cardsList" :title="dataState.titles[1]" />
+    </section>
+    <section class="section">
+      <ContactUs class="fixed" :contactUsBg="dataState.imageBg[5]" />
+    </section>
+
+    <section class="section">
+      <Footer class="fixed" />
+    </section>
+  </div>
+</template>
+
+<style lang="scss" scoped>
+.section {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+
+  overflow: hidden;
+  clip: rect(0, auto, auto, 0);
+  & .fixed {
+    overflow: hidden;
+    position: fixed;
+    inset: 0;
+  }
+}
+
+@for $i from 1 through 10 {
+  .section:nth-child(#{$i}) {
+    box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+
+    color: #fff;
+    top: (100vh * ($i - 1));
+    z-index: ($i);
+  }
+}
+</style>

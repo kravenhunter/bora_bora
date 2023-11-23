@@ -1,9 +1,9 @@
 <template>
-  <div class="card">
+  <article class="card">
     <ImageBlock :imageBg="card" />
     <h2>{{ card.name }}</h2>
     <p>{{ card.description }}</p>
-  </div>
+  </article>
 </template>
 
 <script setup>
