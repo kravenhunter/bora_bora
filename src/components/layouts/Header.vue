@@ -50,7 +50,7 @@ const props = defineProps({
 
 <style lang="scss" scoped>
 .header {
-  background: url("/images/bg/pablo-azurduy-bg.webp");
+  background: url("/images/bg/pablo-azurduy-bg.webp") no-repeat;
   display: grid;
 
   grid-template-columns: repeat(14, 121px);

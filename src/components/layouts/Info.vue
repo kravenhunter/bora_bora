@@ -36,7 +36,7 @@ import AddPagination from "@/components/ui_elements/AddPagination.vue";
 <style lang="scss" scoped>
 .info {
   padding: 140px 105px;
-  background: #edeaea;
+  background: #edeaea no-repeat;
   color: #000000;
   display: grid;
   grid-template-columns: repeat(2, 1fr);

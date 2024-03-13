@@ -3,7 +3,6 @@ import Header from "@/components/layouts/Header.vue";
 import Info from "@/components/layouts/Info.vue";
 import { useDataStore } from "@/store/store";
 import { onMounted, reactive } from "vue";
-// import path from 'path'
 
 import Cards from "@/components/layouts/Cards.vue";
 import ContactUs from "@/components/layouts/ContactUs.vue";
@@ -28,12 +27,6 @@ onMounted(async () => {
   dataState.imageGalary = await dataStore.getImageGalaryASync();
   dataState.articles = await dataStore.getArticlesASync();
   dataState.icons = await dataStore.getIconsASync();
-  // console.log("getImagBgASync", dataState.imageBg);
-  // console.log("getTitleASync", dataState.titles);
-  // console.log("getCardASync", dataState.imageCards);
-  // console.log("getImageGalaryASync", dataState.imageGalary);
-
-  // console.log("Icons", dataState.icons);
 });
 </script>
 
@@ -71,27 +64,31 @@ onMounted(async () => {
 </template>
 
 <style lang="scss" scoped>
-.section {
-  position: absolute;
-  width: 100%;
-  height: 100vh;
+.paralax {
+  & .section {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
 
-  overflow: hidden;
-  clip: rect(0, auto, auto, 0);
-  & .fixed {
     overflow: hidden;
-    position: fixed;
-    inset: 0;
+    clip: rect(0, auto, auto, 0);
+    & .fixed {
+      width: min(100%, 1920px);
+      margin-inline: auto;
+      overflow: hidden;
+      position: fixed;
+      inset: 0;
+    }
   }
-}
 
-@for $i from 1 through 10 {
-  .section:nth-child(#{$i}) {
-    box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  @for $i from 1 through 10 {
+    .section:nth-child(#{$i}) {
+      box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
 
-    color: #fff;
-    top: (100vh * ($i - 1));
-    z-index: ($i);
+      color: #fff;
+      top: (100vh * ($i - 1));
+      z-index: ($i);
+    }
   }
 }
 </style>
